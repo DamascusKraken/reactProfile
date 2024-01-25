@@ -3,9 +3,8 @@
     line-height: 1.5;
     font-weight: 400;
   
-    color-scheme: dark;
    
-    background-color: #242424;
+   
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -16,9 +15,18 @@
 
   footer {
     margin-bottom: 0;
+    color: #C04078;
   } 
 
+  .footer-text {
+    color: #C04078;
+  }
+
+  .homepage-text {
+    color: white; 
+  }
+
   .nav {
-    color-scheme: #C70039;
-    background-color: #242424;
+    color: #4078c0;
+    
   }

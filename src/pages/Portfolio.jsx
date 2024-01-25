@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Project from '../components/Project';
+import Portals from '../components/Portals';
 
 export default function Portfolio() {
   return (
@@ -9,13 +9,13 @@ export default function Portfolio() {
         Portfolio
     </h2>
     <div className=" d-flex justify-content-center">
-      <div className="row">
-        <Project title="DnD Character Generator" imageSrc="/assets/" link="https://damascuskraken.github.io/CodingCampaign/"  />
-        <Project title="Weather App" imageSrc="/assets/" link="https://damascuskraken.github.io/WeatherDashboard/" />
-        <Project title="Password Generator" imageSrc="/assets/" link="https://damascuskraken.github.io/PasswordGenerator/" />
-        <Project title="Mock Business Webpage" imageSrc="/assets/" link="https://damascuskraken.github.io/HoriseonMarketing/" />
-        <Project title="Code Quiz" imageSrc="/assets/" link="https://damascuskraken.github.io/CodeQuiz/" />
-        <Project title="Day Scheduler" imageSrc="/assets/" link="https://damascuskraken.github.io/WorkDayScheduler/" />
+      <div className="row img-fluid">
+        <Portals title="DnD Character Generator" imageSrc="../src/assets/DNDSheet.jpg" link="https://damascuskraken.github.io/CodingCampaign/"  />
+        <Portals title="Weather App" imageSrc="../src/assets/WeatherApp.jpg" link="https://damascuskraken.github.io/WeatherDashboard/" />
+        <Portals title="Password Generator" imageSrc="../src/assets/passGenerator.jpg" link="https://damascuskraken.github.io/PasswordGenerator/" />
+        <Portals title="Mock Business Webpage" imageSrc="../src/assets/mockBusiness.jpg" link="https://damascuskraken.github.io/HoriseonMarketing/" />
+        <Portals title="Code Quiz" imageSrc="../src/assets/CodeQuiz.jpg" link="https://damascuskraken.github.io/CodeQuiz/" />
+        <Portals title="Day Scheduler" imageSrc="../src/assets/workDay.jpg" link="https://damascuskraken.github.io/WorkDayScheduler/" />
         
       </div>
     </div>

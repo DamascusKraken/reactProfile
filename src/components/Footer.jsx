@@ -17,26 +17,24 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <MDBFooter className="text-center text-white   content-wrapper">
-      <div className="text-center  bg-dark ">
-        
-
-        <a className="text-white" href="https://www.NCanchola.com/">
+    <MDBFooter className="Footer text-center text-white   content-wrapper">
+      <div className=" text-center">
+        <a className="" href="https://www.NCanchola.com/">
           Nicholas Canchola
         </a>
-        <div className="text-center iconsize">
-          <a className="text-end" href="https://github.com/DamascusKraken">
+        <div className=" text-center  iconsize">
+          <a className="text-end footer-text ps-4" href="https://github.com/DamascusKraken">
             <FaGithub /> DamascusKraken        
           </a>
 
           <a
-            className="text-end"
-            href="N/A"
+            className="footer-text text-end ps-4"
+            href="www.linkedin.com/in/ncanchola27"
           >
             <FaLinkedin /> Nicholas Canchola           
           </a>
 
-          <a className="text-end" href="mailto:nick.canchola.7.27@gmail.com">
+          <a className=" footer-text text-end ps-4 " href="mailto:nick.canchola.7.27@gmail.com">
             <FaMailBulk /> Nicholas Canchola
           </a>
         </div>
